@@ -16,6 +16,7 @@ function App() {
     dispatch(fetchAuthMe());
   }, []);
 
+  // Components
   return (
     <>
       <Header />
